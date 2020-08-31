@@ -385,83 +385,87 @@
 		</div>
 
 		<!-- Portifólio -->
-		<div id="Portifolio" class="w3-container w3-padding-16 w3-center sidebarItem" style="display: none; text-justify: distribute;">
-			<h2>Portifólio</h2>
-			<p>Aqui estão os projetos de Allan.</p>
-			<br />
-			<br />
-			<br />
-
-			<div class="w3-center" style="position:center; padding-bottom: 250px; z-index:0;">
-
-				<div class="w3-container w3-cell-row w3-cell-middle w3-center">
-
-
-					<div class="w3-card w3-hover-shadow w3-animate-zoom w3-container w3-cell w3-padding w3-mobile" style="width: 150px!important; height: 300px!important;">
-
-						<div style="width: 100%;">
-							<img class="imgPortifolio1" src="./assets/images/portfolio/AdminSystemController1.0.png" alt="Sistema Cybercafé" style="width: 250px;" />
-						</div>
-
-						<div>
-							<p class="w3-mobile">Sistema Cybercafé (em andamento)</p>
-						</div>
-						<div class="w3-padding cardBottom1">
-							<button id="btnModal1" class="img1 w3-btn w3-block w3-red">Visualizar</button>
-						</div>
-
-					</div>
-
-					<!-- The Modal -->
-					<div id="portfolioModal" class="modal">
-
-						<!-- The Close Button -->
-						<span class="close">&times;</span>
-
-						<!-- Modal Content (The Image) -->
-						<img class="modal-content" src="./assets/images/portfolio/AdminSystemController1.0.png" id="imgModal2">
-
-						<!-- Modal Caption (Image Text) -->
-						<div id="caption"> </div>
-					</div>
-					<br />
-					<div class="w3-card card w3-hover-shadow w3-animate-zoom w3-container w3-cell w3-padding w3-mobile" style="width: 150px!important; height: 300px!important;">
-
-						<div class="cardImg" style="width: 100%;">
-							<img class="imgPortifolio2" src="./assets/images/portfolio/CartãoVisitaPodosModel2_1.jpg" alt="Sistema Cybercafé" style="width: 250px;" />
-						</div>
-						<div class="cardMiddle">
-							<p>Cartão de Visita Espaço Pérfect Podologia</p>
-						</div>
-						<div class="w3-padding cardBottom2">
-							<button id="btnModal2" class="w3-btn w3-block w3-red">Visualizar</button>
-						</div>
-
-					</div>
-
-					<div id="portfolioModal2" class="modal">
-
-						<!-- The Close Button -->
-						<span class="close">&times;</span>
-
-						<!-- Modal Content (The Image) -->
-						<img class="modal-content" src="./assets/images/portfolio/CartãoVisitaPodosModel2_1.jpg" id="imgModal2">
-
-						<!-- Modal Caption (Image Text) -->
-						<div id="caption2"></div>
-					</div>
-
-				</div>
+        <div id="Portifolio" class="w3-container w3-padding-16 w3-center sidebarItem conteudoPortifolio">
+            <h2>Portifólio</h2>
+            <p>Aqui estão os projetos de Allan.</p>
+            <br />
+            <br />
+            <br />
+            
+			<!-- Projetos -->
+            <div class="w3-center projetos">
 
 
+                <div class="w3-container w3-cell-row w3-cell-middle w3-center">
 
-			</div>
+                    <!-- Cartão CyberCafé -->
+                    <div id="cartaoCyberCafe" class="w3-card w3-hover-shadow w3-animate-zoom w3-container w3-cell w3-padding w3-mobile cartaoCyberCafe">
 
-		</div>
+                        <div class="CapaCyberCafe">
+                            <img class="imagemCapaCyberCafe" src="./assets/images/portfolio/AdminSystemController1.0.png" alt="Sistema Cybercafé" />
+                        </div>
+
+                        <div>
+                            <p class="w3-mobile">Sistema Cybercafé (em andamento)</p>
+                        </div>
+                        <div class="w3-padding cardBottom1">
+                            <button id="btnModal1" class="img1 w3-btn w3-block w3-red">Visualizar</button>
+                        </div>
+
+                    </div>
+
+                    <!-- Modal do CyberCafé -->
+                    <div id="portfolioModal" class="modal">
+
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" src="./assets/images/portfolio/AdminSystemController1.0.png" id="imgModal2">
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"> </div>
+                    </div>
+                    <br />
+
+                    <!-- Cartão cartão de visitas -->
+                    <div id="cartaoCartaoDeVisitas" class="w3-card card w3-hover-shadow w3-animate-zoom w3-container w3-cell w3-padding w3-mobile cartaoCartaoDeVisitas">
+
+                        <div class="cardImg capaCartaoDeVisitas">
+                            <img class="imgPortifolio2 imagemCapaCartaoDeVisitas" src="./assets/images/portfolio/CartãoVisitaPodosModel2_1.jpg" alt="Sistema Cybercafé" />
+                        </div>
+                        <div class="cardMiddle">
+                            <p>Cartão de Visita Espaço Pérfect Podologia</p>
+                        </div>
+                        <div class="w3-padding cardBottom2">
+                            <button id="btnModal2" class="w3-btn w3-block w3-red">Visualizar</button>
+                        </div>
+
+                    </div>
+
+                    <!-- Modal do cartão de visitas -->
+                    <div id="portfolioModal2" class="modal">
+
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" src="./assets/images/portfolio/CartãoVisitaPodosModel2_1.jpg" id="imgModal2">
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption2"></div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
 
 		<!-- Sobre -->
-		<div id="Sobre" class="w3-container w3-padding-16 w3-center sidebarItem" style="        display: none;
-		text-justify: distribute;">
+		<div id="Sobre" class="w3-container w3-padding-16 w3-center sidebarItem conteudoSobre">
 			<h2>Sobre</h2>
 
 			<p>
@@ -493,55 +497,55 @@
 				<div class="w3-row-padding w3-section">
 					<div class="w3-row">
 						<div class="w3-col s4">
-							<img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/Brainstorm_-_2018_Edicao_de_video_Essencial.png" style="width: 100%; cursor: pointer;border: groove" onclick="currentDiv(1)">
+							<img class="demo w3-opacity w3-hover-opacity-off certificados" src="./assets/images/certificates/Brainstorm_-_2018_Edicao_de_video_Essencial.png" onclick="currentDiv(1)">
 						</div>
 
 						<div class="w3-col s4">
-							<img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/EVBradesco_-_2011_HTML_Básico.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(2)">
+							<img class="demo w3-opacity w3-hover-opacity-off certificados" src="./assets/images/certificates/EVBradesco_-_2011_HTML_Básico.png" onclick="currentDiv(2)">
 						</div>
 
 						<div class="w3-col s4">
-							<img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/FGV_2012_-_Certificado_Gestão_de_T.I..png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(3)">
+							<img class="demo w3-opacity w3-hover-opacity-off certificados" src="./assets/images/certificates/FGV_2012_-_Certificado_Gestão_de_T.I..png" onclick="currentDiv(3)">
 						</div>
 					</div>
 					<div class="w3-row">
 						<div class="w3-col s4">
-							<img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/Impacta_-_2017_CSharp_Modulo_I.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(4)">
+							<img class="demo w3-opacity w3-hover-opacity-off certificados" src="./assets/images/certificates/Impacta_-_2017_CSharp_Modulo_I.png" onclick="currentDiv(4)">
 						</div>
 
 						<div class="w3-col s4">
-							<img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/MVA_-_2013_Fundamentos_do_desenvolvimento_de_software.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(5)">
+							<img class="demo w3-opacity w3-hover-opacity-off certificados" src="./assets/images/certificates/MVA_-_2013_Fundamentos_do_desenvolvimento_de_software.png" onclick="currentDiv(5)">
 						</div>
 
 						<div class="w3-col s4">
-							<img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/MVA_-_2013_Introdução_para_Windows_8.png" style="width:100%;cursor:pointer; border:groove; border:groove" onclick="currentDiv(6)">
+							<img class="demo w3-opacity w3-hover-opacity-off certificados" src="./assets/images/certificates/MVA_-_2013_Introdução_para_Windows_8.png" onclick="currentDiv(6)">
 						</div>
 					</div>
 					<div class="w3-row">
 						<div class="w3-col s4">
-							<img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/MVA_-_2014_Entendendo_o_Windows_Azure.png" style="width:100%;cursor:pointer; border:groove; border:groove" onclick="currentDiv(7)">
+							<img class="demo w3-opacity w3-hover-opacity-off certificados" src="./assets/images/certificates/MVA_-_2014_Entendendo_o_Windows_Azure.png" onclick="currentDiv(7)">
 						</div>
 
 						<div class="w3-col s4">
-							<img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/MVA_2012_-_Windows_8_-_Sua_primeira_App_na_Windows_Store.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(8)">
+							<img class="demo w3-opacity w3-hover-opacity-off certificados" src="./assets/images/certificates/MVA_2012_-_Windows_8_-_Sua_primeira_App_na_Windows_Store.png" onclick="currentDiv(8)">
 						</div>
 
 						<div class="w3-col s4">
-							<img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/EADTIExames_-_2020_Documentacao_essencial_para_um_projeto_de_adequação_a_LGPD.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(9)">
+							<img class="demo w3-opacity w3-hover-opacity-off certificados" src="./assets/images/certificates/EADTIExames_-_2020_Documentacao_essencial_para_um_projeto_de_adequação_a_LGPD.png" onclick="currentDiv(9)">
 						</div>
 					</div>
 
 				</div>
 
-				<img class="mySlides" src="./assets/images/certificates/Brainstorm_-_2018_Edicao_de_video_Essencial.png" style="width:100%;display:none; border:groove">
-				<img class="mySlides" src="./assets/images/certificates/EVBradesco_-_2011_HTML_Básico.png" style="width:100%">
-				<img class="mySlides" src="./assets/images/certificates/FGV_2012_-_Certificado_Gestão_de_T.I..png" style="width:100%;display:none; border:groove">
-				<img class="mySlides" src="./assets/images/certificates/Impacta_-_2017_CSharp_Modulo_I.png" style="width:100%;display:none; border:groove">
-				<img class="mySlides" src="./assets/images/certificates/MVA_-_2013_Fundamentos_do_desenvolvimento_de_software.png" style="width:100%;display:none; border:groove">
-				<img class="mySlides" src="./assets/images/certificates/MVA_-_2013_Introdução_para_Windows_8.png" style="width:100%;display:none; border:groove">
-				<img class="mySlides" src="./assets/images/certificates/MVA_-_2014_Entendendo_o_Windows_Azure.png" style="width:100%;display:none; border:groove">
-				<img class="mySlides" src="./assets/images/certificates/MVA_2012_-_Windows_8_-_Sua_primeira_App_na_Windows_Store.png" style="width:100%;display:none; border:groove">
-				<img class="mySlides" src="./assets/images/certificates/EADTIExames_-_2020_Documentacao_essencial_para_um_projeto_de_adequação_a_LGPD.png" style="width:100%;display:none; border:groove">
+				<img class="mySlides apresentacaoCertificados" src="./assets/images/certificates/Brainstorm_-_2018_Edicao_de_video_Essencial.png">
+				<img class="mySlides apresentacaoCertificados" src="./assets/images/certificates/EVBradesco_-_2011_HTML_Básico.png">
+				<img class="mySlides apresentacaoCertificados" src="./assets/images/certificates/FGV_2012_-_Certificado_Gestão_de_T.I..png">
+				<img class="mySlides apresentacaoCertificados" src="./assets/images/certificates/Impacta_-_2017_CSharp_Modulo_I.png">
+				<img class="mySlides apresentacaoCertificados" src="./assets/images/certificates/MVA_-_2013_Fundamentos_do_desenvolvimento_de_software.png">
+				<img class="mySlides apresentacaoCertificados" src="./assets/images/certificates/MVA_-_2013_Introdução_para_Windows_8.png">
+				<img class="mySlides apresentacaoCertificados" src="./assets/images/certificates/MVA_-_2014_Entendendo_o_Windows_Azure.png">
+				<img class="mySlides apresentacaoCertificados" src="./assets/images/certificates/MVA_2012_-_Windows_8_-_Sua_primeira_App_na_Windows_Store.png">
+				<img class="mySlides apresentacaoCertificados" src="./assets/images/certificates/EADTIExames_-_2020_Documentacao_essencial_para_um_projeto_de_adequação_a_LGPD.png">
 
 
 			</div>
@@ -551,7 +555,7 @@
 		</div>
 
 		<!-- Contato -->
-		<div id="Contato" class="w3-container w3-padding-16 sidebarItem" style="display: none; text-justify: distribute;">
+		<div id="Contato" class="w3-container w3-padding-16 sidebarItem conteudoContato">
 
 			<div class="container">
 
@@ -566,16 +570,16 @@
 					<input type="email" id="to" runat="server" name="toEmail" placeholder="Digite seu e-mail de contato: " required="required">
 
 					<label for="from" style="display:none;">Enviar e-mail para: </label>
-					<input type="email" id="from" runat="server" name="fromEmail" data-content="techall@hotmail.com.br" style="display:none;">
+					<input id="from" class="contatoInputEmail" type="email" runat="server" name="fromEmail" data-content="techall@hotmail.com.br">
 
 					<label for="subject">Motivo: </label>
 					<input type="text" id="subject" runat="server" name="subject" placeholder="Digite o motivo do contato: ">
 
 					<fieldset id="emlBody">
 						<label for="body">Mensagem:</label>
-						<textarea id="body" name="bMessage" placeholder="Escreva sua mensagem aqui... " style="height:200px"></textarea>
+						<textarea id="body" class="contatoInputTextArea" name="bMessage" placeholder="Escreva sua mensagem aqui... "></textarea>
 					</fieldset>
-					<input type="submit" name="submit" value="Enviar" style="margin-top:10px;">
+					<input class="contatoInputSubmit" type="submit" name="submit" value="Enviar">
 				</form>
 
 			</div>

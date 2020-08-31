@@ -486,29 +486,85 @@
     padding-top: 100px;
 }
 
+/* Página Portifólio */
+
+.conteudoPortifolio {
+    display: none;
+    text-justify: distribute;
+}
+
+.projetos {
+    position: center;
+    padding-bottom: 250px;
+    z-index: 0;
+}
+
+.cartaoCyberCafe {
+    width: 150px !important;
+    height: 300px !important;
+}
+
+.CapaCyberCafe {
+    width: 100%;
+}
+
+.imagemCapaCyberCafe {
+    width: 250px;
+    width: 120px !important;
+}
+
+.cartaoCartaoDeVisitas {
+    width: 150px !important;
+    height: 300px !important;
+}
+
+.capaCartaoDeVisitas {
+    width: 100%;
+}
+
+.imagemCapaCartaoDeVisitas {
+    width: 250px;
+}
 
 
+/* Sobre */
 
+.conteudoSobre {
+    display: none;
+    text-justify: distribute;
+}
 
+.certificados {
+    width: 100%;
+    cursor: pointer;
+    border: groove
+}
 
+.apresentacaoCertificados {
+    width: 100%;
+    height: auto;
+    display: none;
+    border: groove;
+}
 
+/* Contato */
 
+.conteudoContato {
+    display: none;
+    text-justify: distribute;
+}
 
+.contatoInputEmail {
+    display: none;
+}
 
+.contatoInputTextArea {
+    height: 200px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contatoInputSubmit {
+    margin-top: 10px;
+}
 
 
 
@@ -875,10 +931,6 @@ img {
         clear: both;
         width: 1% !important;
         margin-top: 10% !important;
-    }
-
-    .imgPortifolio1 {
-        width: 120px !important;
     }
 
     .imgPortifolio2 {
