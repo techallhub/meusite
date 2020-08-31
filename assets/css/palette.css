@@ -1,0 +1,478 @@
+    body {
+    max-width: 1920px;
+    max-height: 1080px;
+    min-width: 450px!important;
+    margin: auto;
+    background: white;
+    }
+
+    #navBar {
+        position: -webkit-sticky!important;
+        position: sticky!important;
+        overflow: hidden;
+        background-color: #f1f1f1;
+        padding: 90px 10px;
+        transition: 0.4s;
+        width: 100%;
+        top: 0;
+        z-index: 99;
+    }
+
+    #navBar a {
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+    }
+
+        #navBar #logo {
+            float: right;
+            font-size: 45px;
+            font-weight: bold;
+            transition: 0.4s;
+            font-family: "Allerta Stencil", Sans-serif !important;
+            background-color: transparent !important;
+        }
+
+    #navBar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    #navBar a.active {
+        background-color: dodgerblue;
+        color: white;
+    }
+
+    #navBar #sideBarButton {
+        display: none;
+        font-size: 35px;
+        font-weight: bold;
+        transition: 0.4s;
+        float: left;
+        margin-right: 6px;
+    }
+
+    #navBar #sideBar {
+        display:none;
+    }
+
+    #navBar #sideBarML {
+        display: normal!important;
+        font-size: 25px;
+        font-weight: normal;
+        transition: 0.4s;
+        float: left;
+        margin-right: 6px;
+    }
+
+    .w3-allerta {
+    font-family: "Allerta Stencil", Sans-serif;
+    }
+
+    .w3-allerta-logo {
+    font-family: "Allerta Stencil", Sans-serif;
+    font-size: 36px;
+    margin-top: -55px;
+    padding-top: 100px!important;
+    }
+
+    .w3-lobster {
+    font-family: "Lobster", Sans-serif;
+    }
+
+  .zoom {
+    transform: scale(2.0);
+    background-color: green;
+    transition: transform .2s; /* Animation */
+
+  }
+
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .btn {
+    border: none;
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    background-position-y:30%;
+  }
+
+  .btn:hover {
+    opacity: 1
+  }
+
+  img {
+    opacity: 1!important
+  }
+  .w3-circle{
+    border-radius:50%;
+    opacity:1!Important;
+  }
+
+  
+
+/* RGB Color */
+
+.color1 { 
+    color: rgba(255, 93, 88, 1);
+}
+
+.bgcolor1{ 
+    background-color: rgba(255, 93, 88, 1);
+}
+
+.color2{ 
+    color:rgba(255, 100, 0, 1);
+}
+
+.bgcolor2{ 
+    background-color:rgba(255, 100, 0, 1);
+}
+
+.color3{ 
+    color:rgba(255, 68, 57, 1);
+}
+
+.bgcolor3{ 
+    background-color:rgba(255, 68, 57, 1);
+}
+
+.color4{ 
+    color:rgba(172, 105, 0, 1);
+}
+
+.bgcolor4{ 
+    background-color:rgba(172, 105, 0, 1);
+}
+
+.color5{ 
+    color:rgba(95, 72, 0, 1);
+}
+
+.bgcolor5{ 
+    background-color:rgba(95, 72, 0, 1);
+}
+
+.color6{ 
+    color:rgba(255, 111, 105, 1);
+}
+
+.bgcolor6{ 
+    background-color:rgba(255, 111, 105, 1);
+}
+
+.color7{ 
+    color:rgba(216, 163, 2, 1);
+}
+
+.bgcolor7{ 
+    background-color:rgba(216, 163, 2, 1);
+}
+
+.color8{ 
+    color:rgba(216, 163, 2, 1);
+}
+
+.bgcolor8{ 
+    background-color:rgba(216, 163, 2, 1);
+}
+
+.color9{ 
+    color:rgba(79, 0, 0, 1);
+}
+
+.bgcolor9{ 
+    background-color:rgba(79, 0, 0, 1);
+}
+
+.color10{ 
+    color:rgba(255, 56, 41, 1);
+}
+
+.bgcolor10{ 
+    background-color:rgba(255, 56, 41, 1);
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    background-image: url("images/footer.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 781px;
+    height: 112px;
+    margin: 0 auto;
+}
+
+
+.card {
+    clear: both;
+    width: 20px !important;
+    height: 30px !important;
+    margin-right: 50% !important;
+    vertical-align: middle;
+}
+
+.cardImg {
+    clear: both;
+    width: 101%;
+    margin-top: 10%;
+    vertical-align: middle;
+}
+
+
+.cardMiddle {
+    clear: both;
+    position: relative;
+    bottom: -08%;
+    vertical-align: middle;
+}
+
+.cardBottom2 {
+    clear: both;
+    position: relative;
+    bottom: -10%;
+    vertical-align: middle;
+}
+
+#btnModal1 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #btnModal1:hover {
+        opacity: 0.7;
+    }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+#btnModal2 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #btnModal2:hover {
+        opacity: 0.7;
+    }
+
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+input[type=text], select, textarea, input[type=email], fieldset {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: orangered;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+
+/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+
+@media screen and (max-width: 600px) {
+    #navBar {
+        padding: 20px 10px !important;
+        color: aqua;
+    }
+
+        #navBar a {
+            float: none;
+            display: flex;
+            text-align: center !important;
+        }
+
+    #sideBar {
+        float: none;
+    }
+
+    #navBar #sideBarButton {
+        display: normal !important;
+    }
+
+    #navBar #logo {
+        font-size: 35px;
+        font-weight: bold;
+        transition: 0.4s;
+        float: right;
+        margin-right: 6px;
+    }
+
+
+    #navBar #sideBar {
+        display: none;
+    }
+
+    #navBar #sideBarML {
+        display: none !important;
+        font-size: 25px !important;
+        font-weight: normal !important;
+        transition: 0.4s;
+        float: left;
+        margin-right: 0px !important;
+    }
+
+    #navBar #sideBarButton {
+        display: contents !important;
+        font-size: 25px !important;
+        font-weight: normal !important;
+        transition: 0.4s;
+        float: left;
+        margin-right: 0px !important;
+    }
+
+    .card {
+        clear: both;
+        width: 20px !important;
+        height: 30px !important;
+        margin-right: 50% !important;
+    }
+
+    .cardImg {
+        clear: both;
+        width: 1% !important;
+        margin-top: 10% !important;
+    }
+
+    .imgPortifolio1 {
+        width: 120px !important;
+    }
+
+    .imgPortifolio2 {
+        width: 120px !important;
+    }
+
+    .cardMiddle {
+        clear: both;
+        position: relative;
+        bottom: -15%;
+    }
+
+
+    .cardBottom1 {
+        clear: both;
+        position: relative;
+        bottom: -8%;
+        margin: auto -8px;
+        padding: inherit;
+        vertical-align:middle;
+    }
+
+    .cardBottom2 {
+        clear: both;
+        position: relative;
+        margin: auto -8px;
+        padding: inherit;
+        vertical-align: middle;
+    }
+
+    .modal-content{
+        width: 100%;
+        max-width: 500px;
+    }
+}
+

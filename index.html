@@ -1,0 +1,610 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portifolio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/palette.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/f2f90ddbe6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="navBar">
+        <div id="logo">
+            <a href="#" class="w3-allerta color10 w3-red" onclick="opensidebarItem(event, `Home`)"> Allan Almeida </a>
+        </div>
+        <div id="sideBarML">
+            <a href="#" class="w3-bar-item w3-button w3-center tablinkML" onclick="opensidebarItemML(event, 'Home')">Home</a>
+            <a href="#" class="w3-bar-item w3-button w3-center tablinkML" onclick="opensidebarItemML(event, 'Portifolio')">Portifólio</a>
+            <a href="#" class="w3-bar-item w3-button w3-center tablinkML" onclick="opensidebarItemML(event, 'Sobre')">Sobre</a>
+            <a href="#" class="w3-bar-item w3-button w3-center tablinkML" onclick="opensidebarItemML(event, 'Contato')">Contato</a>
+        </div>
+        <div id="sideBar" class="w3-sidebar w3-bar-block w3-animate-left w3-light-grey w3-card" style="z-index:6; display: none; width:150px!important; left:0; top:0;">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+            <a href="#" class="w3-bar-item w3-button w3-center tablink" onclick="opensidebarItem(event, 'Home')">Home</a>
+            <a href="#" class="w3-bar-item w3-button w3-center tablink" onclick="opensidebarItem(event, 'Portifolio')">Portifólio</a>
+            <a href="#" class="w3-bar-item w3-button w3-center tablink" onclick="opensidebarItem(event, 'Sobre')">Sobre</a>
+            <a href="#" class="w3-bar-item w3-button w3-center tablink" onclick="opensidebarItem(event, 'Contato')">Contato</a>
+        </div>
+        <div id="sideBarButton">
+
+            <div class="w3-left">
+                <button class="w3-button w3-bar-item" Style="color:red!important" onclick="w3_open();">
+                    <i class="fa fa-navicon"></i>
+                </button>
+            </div>
+
+            <div class="w3-overlay w3-animate-opasidebarItem" onclick="w3_close()" style="cursor:pointer" id="Overlay">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="w3-row " style="border:groove; background-color: #f1f1f1;">
+
+        <!-- BodyContent -->
+
+        <div id="Home" class="w3-center sidebarItem">
+
+            <!-- Large screen -->
+
+            <div class="w3-dark-grey btn w3-hide-small w3-hide-medium" style="position:relative; padding-bottom: 250px; z-index:0; background-image:url(assets/images/telaCodigoDev.png); background-position-y:-220px; background-position-x:50%; background-size:cover; background-repeat:space; max-width: 10000px; min-width:100px;">
+            </div>
+            <div class="bgcolor10 w3-center w3-hide-small w3-hide-medium" style="position:relative; padding-bottom: 5%; position:center;">
+
+                <img src=".\assets\images\WP_20160711_13_13_02_Pro.jpg" class="w3-circle w3-center" alt="" style="position:relative; margin-top:-100px; width:250px; z-index:1">
+                <h1 class="w3-allerta" style="position:relative; margin-top:-300px; margin-bottom:300px">Quem sou eu?</h1>
+                <h1 class="w3-lobster">Muito prazer, <br /> eu sou Allan de Oliveira Almeida!</h1>
+            </div>
+
+            <div class="w3-container w3-hide-small w3-hide-medium" style="z-index:-1; margin-top:5%;background-color: #f1f1f1;">
+                <div class="w3-container w3-cell w3-mobile">
+                    <br /><br />
+
+                    <div style="position: relative; margin-left:-75%!important;margin-top:-10%;">
+                        <div style="margin-bottom: -50px!important; margin-left: 50px">
+                            <i class="fa fa-shield" style="color:dimgray; font-size:150px;"></i>
+                        </div>
+                        <div style="margin-left:150px; margin-bottom: -60px!important;">
+                            <i class="fas fa-tools" style="color:forestgreen;font-size:150px; "></i>
+                        </div>
+                        <div style="margin-left:180px; margin-bottom: -70px!important;">
+                            <i class="fas fa-headset" style="color:maroon; font-size:150px; "></i>
+                        </div>
+                    </div>
+
+                    <h2 class="w3-container w3-cell-left" style="left:10%; margin-left:60%; margin-right:-70%; padding-top:-10px!important; margin-bottom:10%; margin-top:-300px">
+                        Profissional no ramo de tecnologia há 10 anos, comecei como técnico de computadores e desde então estou em constante aperfeiçoamento na área.
+                        No decorrer de minha atuação em T.I. trabalhei com Segurança da Informação, Suporte de Service Desk, e Suporte de Campo.
+                    </h2>
+
+                    <br />
+                    <hr class="w3-black" />
+                </div>
+
+                <h2 class="w3-container w3-cell" style="position: relative; left:-55%!important; padding-right:-100%!important; padding-top:70%!important; margin-top: 10000px!important;">
+                    No mesmo período aprendi sobre programação, banco de dados, serviços gráficos, gerenciamento de projetos, e serviços técnicos como montagem e manutenção em computadores, notebooks e celulares.
+                </h2>
+                <br />
+                <div style="position: relative; margin-left:60%!important; margin-top:-370px;">
+                    <div style="margin-left: 60px ; margin-bottom: -50px!important">
+                        <i class="fas fa-database" style="color:dimgray; font-size:150px;"></i>
+                    </div>
+                    <div style="margin-left:-30px; margin-bottom: -70px!important;">
+                        <i class="fas fa-id-card" style="color: forestgreen; font-size: 150px;"></i>
+                    </div>
+                    <div style="margin-left:-90px; margin-bottom: 70px!important">
+                        <i class="fas fa-project-diagram" style="color:maroon; font-size:150px; "></i>
+                    </div>
+                </div>
+                <span class="w3-container w3-cell w3-cell-middle" style="width: 1000px">
+                    <a href="#" type="button" class="w3-button w3-black" onclick="sideBarML">Saiba mais...</a>
+                </span>
+
+            </div>
+
+            <!-- medium screen -->
+
+            <div class="w3-dark-grey btn w3-hide-small w3-hide-large" style="position:relative; padding-bottom: 250px; z-index:0; background-image:url(assets/images/telaCodigoDev.png); background-position-y:-95px; background-position-x:50%; background-size:cover; background-repeat:space; max-width: 10000px; min-width:100px;">
+            </div>
+            <div class="bgcolor10 w3-center w3-hide-small w3-hide-large" style="position:relative; padding-bottom: 0%; position:center;">
+
+                <img src=".\assets\images\WP_20160711_13_13_02_Pro.jpg" class="w3-circle w3-center" alt="" style="position:relative; margin-top:-100px; width:250px; z-index:1">
+                <h2 style="position:relative; margin-top:-300px; margin-bottom:300px">Quem sou eu?</h2>
+                <h1 class="w3-lobster">Muito prazer, <br /> eu sou Allan de Oliveira Almeida!</h1>
+            </div>
+
+            <div class="w3-container w3-hide-small w3-hide-large" style="z-index:-1; margin-top:-10px;">
+                <div class="w3-container w3-cell w3-mobile">
+                    <br /><br />
+
+                    <div style="position: relative; margin-left:-95%!important;">
+                        <div style="margin-bottom: -50px!important;">
+                            <i class="fa fa-shield" style="color:dimgray; font-size:150px; margin-left: 50px"></i>
+                        </div>
+                        <div style="margin-left:-50px; margin-bottom: -60px!important; margin-left: 100px">
+                            <i class="fas fa-tools" style="color:forestgreen;font-size:150px; "></i>
+                        </div>
+                        <div style="margin-left:-50px; margin-bottom: -70px!important; margin-left: 150px">
+                            <i class="fas fa-headset" style="color:maroon; font-size:150px; "></i>
+                        </div>
+                    </div>
+
+                    <h2 class="w3-container w3-cell-left" style="left:10%; margin-left:30%; margin-top:-350px;">
+                        Profissional no ramo de tecnologia há 10 anos, comecei como técnico de computadores e desde então estou em constante aperfeiçoamento na área.
+                        No decorrer de minha atuação em T.I. trabalhei com Segurança da Informação, Suporte de Service Desk, e Suporte de Campo.
+                    </h2>
+                    <br />
+                    <hr class="w3-black" />
+                </div>
+                
+                <div class="w3-container w3-cell-row w3-mobile w3-cell-middle" style="margin-top:100px!important">
+                    <h2 class="w3-container w3-cell" style="position: relative;  margin-right: 100%;">
+                        No mesmo período aprendi sobre programação, banco de dados, serviços gráficos, gerenciamento de projetos, e serviços técnicos como montagem e manutenção em computadores, notebooks e celulares.
+                    </h2>
+                    <br />
+                    <div style="position: relative; margin-right:-100%; margin-left:-75%!important">
+                        <div style="margin-left: 60px ; margin-bottom: -50px!important">
+                            <i class="fas fa-database" style="color:dimgray; font-size:150px;"></i>
+                        </div>
+                        <div style="margin-left:-30px; margin-bottom: -70px!important;">
+                            <i class="fas fa-id-card" style="color: forestgreen; font-size: 150px;"></i>
+                        </div>
+                        <div style="margin-left:-90px; margin-bottom: 70px!important">
+                            <i class="fas fa-project-diagram" style="color:maroon; font-size:150px; "></i>
+                        </div>
+                    </div>
+
+                </div>
+                <p class="w3-container w3-cell w3-cell-middle" style="width:1000px; padding-top:100px">
+                    <a href="#" type="button" class="w3-button w3-black" onclick="sideBarML">Saiba mais...</a>
+                </p>
+
+                <br /><br />
+
+            </div>
+
+            <!-- small screen -->
+
+            <div class="w3-dark-grey btn w3-hide-medium w3-hide-large" style="position:relative; padding-bottom: 250px; z-index:0; background-image:url(assets/images/telaCodigoDev.png); background-position-y:-45px; background-position-x:50%; background-size:cover; background-repeat:space; max-width: 10000px; min-width:100px;">
+            </div>
+            <div class="bgcolor10 w3-center w3-hide-medium w3-hide-large" style="position:relative; margin-top:-100px; padding-bottom: 0%; position:center;">
+                <img src=".\assets\images\WP_20160711_13_13_02_Pro.jpg" class="w3-circle w3-center" alt="" style="position:relative; margin-top:-75px; width:155px; z-index:1">
+                <h2 style="position:relative; margin-top:-200px; margin-bottom:200px">Quem sou eu?</h2>
+                <h1 class="w3-lobster">Muito prazer, <br /> eu sou Allan de Oliveira Almeida!</h1>
+            </div>
+
+            <div class="w3-container w3-hide-medium w3-hide-large" style="z-index:-1; margin-top:-10px;">
+                <div class="w3-container w3-cell w3-mobile">
+                    <br /><br />
+
+                    <div style="position: relative; margin-left:-100%!important">
+                        <div style="margin-bottom: -40px!important;">
+                            <i class="fa fa-shield" style="color:dimgray; font-size:100px; margin-left: 50px"></i>
+                        </div>
+                        <div style="margin-left:90px; margin-bottom: -30px!important;">
+                            <i class="fas fa-tools" style="color:forestgreen;font-size:100px; "></i>
+                        </div>
+                        <div style="margin-left:130px; margin-bottom: -70px!important;">
+                            <i class="fas fa-headset" style="color:maroon; font-size:100px; "></i>
+                        </div>
+                    </div>
+
+
+                    
+                    <h5 class="w3-container w3-cell-left" style="margin-right:-10%; margin-left:35%; margin-top:-240px">
+                        Profissional no ramo de tecnologia há 10 anos, comecei como técnico de computadores e desde então estou em constante aperfeiçoamento na área.
+                        No decorrer de minha atuação em T.I. trabalhei com Segurança da Informação, Suporte de Service Desk, e Suporte de Campo.
+                    </h5>
+                    <br />
+                    <hr class="w3-black" />
+                </div>
+
+                <br />
+                <br />
+                <div class="w3-container w3-cell-row w3-mobile w3-cell-middle" style="margin-top:100px;">
+                    <h4 class="w3-container w3-cell" style="position: relative; padding-left:40%!important; padding-top:-100%; left:-155px">
+                        No mesmo período aprendi sobre programação, banco de dados, serviços gráficos, gerenciamento de projetos, e serviços técnicos como montagem e manutenção em computadores, notebooks e celulares.
+                    </h4>
+                    <br />
+                    <div style="position: relative; margin-left:60%!important; margin-top: -260px;">
+                        <div style="margin-left: 70px ; margin-bottom: -40px!important;">
+                            <i class="fas fa-database" style="color:dimgray; font-size:100px;"></i>
+                        </div>
+                        <div style="margin-left:25px; margin-bottom: -40px!important;">
+                            <i class="fas fa-id-card" style="color:forestgreen;font-size:100px; "></i>
+                        </div>
+                        <div style="margin-left:-10px; margin-bottom: 70px!important">
+                            <i class="fas fa-project-diagram" style="color: maroon; font-size: 100px; "></i>
+                        </div>
+                    </div>
+                    <p class="w3-container w3-cell w3-cell-middle" style="width:800px; padding-top:100px">
+                        <a href="#" type="button" class="w3-button w3-black" onclick="w3_open()">Saiba mais...</a>
+                    </p>
+
+                </div>
+                <br /><br />
+
+            </div>
+
+
+
+        </div>
+
+        <div id="Portifolio" class="w3-container w3-padding-16 w3-center sidebarItem" style="display: none; text-justify: distribute;">
+            <h2>Portifólio</h2>
+            <p>Aqui estão os projetos de Allan.</p>
+            <br />
+            <br />
+            <br />
+
+            <div class="w3-center" style="position:center; padding-bottom: 250px; z-index:0;">
+
+                <div class="w3-container w3-cell-row w3-cell-middle w3-center">
+
+
+                    <div class="w3-card w3-hover-shadow w3-animate-zoom w3-container w3-cell w3-padding w3-mobile" style="width: 150px!important; height: 300px!important;">
+
+                        <div style="width: 100%;">
+                            <img class="imgPortifolio1" src="./assets/images/portfolio/AdminSystemController1.0.png" alt="Sistema Cybercafé" style="width: 250px;" />
+                        </div>
+
+                        <div>
+                            <p class="w3-mobile">Sistema Cybercafé (em andamento)</p>
+                        </div>
+                        <div class="w3-padding cardBottom1">
+                            <button id="btnModal1" class="img1 w3-btn w3-block w3-red">Visualizar</button>
+                        </div>
+
+                    </div>
+
+                    <!-- The Modal -->
+                    <div id="portfolioModal" class="modal">
+
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" src="./assets/images/portfolio/AdminSystemController1.0.png" id="imgModal2">
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption">  </div>
+                    </div>
+                    <br />
+                    <div class="w3-card card w3-hover-shadow w3-animate-zoom w3-container w3-cell w3-padding w3-mobile" style="width: 150px!important; height: 300px!important;">
+
+                        <div class="cardImg" style="width: 100%;">
+                            <img class="imgPortifolio2" src="./assets/images/portfolio/CartãoVisitaPodosModel2_1.jpg" alt="Sistema Cybercafé" style="width: 250px;" />
+                        </div>
+                        <div class="cardMiddle">
+                            <p>Cartão de Visita Espaço Pérfect Podologia</p>
+                        </div>
+                        <div class="w3-padding cardBottom2">
+                            <button id="btnModal2" class="w3-btn w3-block w3-red">Visualizar</button>
+                        </div>
+
+                    </div>
+
+                    <div id="portfolioModal2" class="modal">
+
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" src="./assets/images/portfolio/CartãoVisitaPodosModel2_1.jpg" id="imgModal2">
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption2"></div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div id="Sobre" class="w3-container w3-padding-16 w3-center sidebarItem" style="        display: none;
+        text-justify: distribute;">
+            <h2>Sobre</h2>
+
+            <p>
+                Allan é profissional no ramo de tecnologia há 10 anos, com uma boa experiência em suporte e
+                atendimento ao cliente. Isso lhe dá uma boa desenvoltura no entendimento de um problema e
+                sua resolução. Além disso, também tem ótima experiência em serviços técnicos, como manutenção
+                de computadores e administração de rede.
+            </p>
+            <p>
+                E por falar em rede, Allan tem sua formação técnica em Redes de Computadores e fez vários
+                cursos de programação ao longo da vida. E as surpresas não param por aí, Allan está se
+                formando em licenciatura em Português/Japonês pela Universidade Cruzeiro do Sul Educacional.
+            </p>
+            <p>
+                Seu estudo ao longo do tempo foi se dirigindo à programação. Estudou coisas como C#, ASP,
+                PowerShell, desenvolvimento Web e banco de dados. Porém, também viu sobre edição de áudio e
+                vídeo, serviços gráficos, gerenciamento de projetos, e como já mencionado, serviços técnicos
+                como montagem e manutenção em computadores e notebooks.
+            </p>
+            <p>
+                Já atuou em ferramentas como CA-SDM, Active Directory, Administrador do Office365, Microsoft
+                Exchange, Microsoft Azure, OBS Studio, Sony Vegas, CorelDraw Suite e muito mais.
+            </p>
+            <p>
+                Ligado muito à cultura asiática, conhece bem aspectos da cultura coreana, chinesa e japonesa.
+                Esta última com ênfase, já que está se formando licenciado no idioma. Isso lhe dá destaque e
+                flexibilidade de comunicação frente ao mundo.
+            </p>
+            <p>
+                E como a vida não para, sua formação também não há de parar. Muita coisa nova ainda está por
+                vir.
+            </p>
+            <p>Abaixo estão os certificados conquistados até o momento.
+            <p>*Outros estudos podem não ter gerado certificados, não estando na lista.</p>
+            <p>Certificados</p>
+
+            <div class="w3-content" style="max-width: 800px">
+                <div class="w3-row-padding w3-section">
+                    <div class="w3-row">
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/Brainstorm_-_2018_Edicao_de_video_Essencial.png" style="width: 100%; cursor: pointer;border: groove" onclick="currentDiv(1)">
+                        </div>
+
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/EVBradesco_-_2011_HTML_Básico.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(2)">
+                        </div>
+
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/FGV_2012_-_Certificado_Gestão_de_T.I..png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(3)">
+                        </div>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/Impacta_-_2017_CSharp_Modulo_I.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(4)">
+                        </div>
+
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/MVA_-_2013_Fundamentos_do_desenvolvimento_de_software.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(5)">
+                        </div>
+
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/MVA_-_2013_Introdução_para_Windows_8.png" style="width:100%;cursor:pointer; border:groove; border:groove" onclick="currentDiv(6)">
+                        </div>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/MVA_-_2014_Entendendo_o_Windows_Azure.png" style="width:100%;cursor:pointer; border:groove; border:groove" onclick="currentDiv(7)">
+                        </div>
+
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/MVA_2012_-_Windows_8_-_Sua_primeira_App_na_Windows_Store.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(8)">
+                        </div>
+
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="./assets/images/certificates/EADTIExames_-_2020_Documentacao_essencial_para_um_projeto_de_adequação_a_LGPD.png" style="width:100%;cursor:pointer; border:groove" onclick="currentDiv(9)">
+                        </div>
+                    </div>
+
+                </div>
+
+                    <img class="mySlides" src="./assets/images/certificates/Brainstorm_-_2018_Edicao_de_video_Essencial.png" style="width:100%;display:none; border:groove">
+                    <img class="mySlides" src="./assets/images/certificates/EVBradesco_-_2011_HTML_Básico.png" style="width:100%">
+                    <img class="mySlides" src="./assets/images/certificates/FGV_2012_-_Certificado_Gestão_de_T.I..png" style="width:100%;display:none; border:groove">
+                    <img class="mySlides" src="./assets/images/certificates/Impacta_-_2017_CSharp_Modulo_I.png" style="width:100%;display:none; border:groove">
+                    <img class="mySlides" src="./assets/images/certificates/MVA_-_2013_Fundamentos_do_desenvolvimento_de_software.png" style="width:100%;display:none; border:groove">
+                    <img class="mySlides" src="./assets/images/certificates/MVA_-_2013_Introdução_para_Windows_8.png" style="width:100%;display:none; border:groove">
+                    <img class="mySlides" src="./assets/images/certificates/MVA_-_2014_Entendendo_o_Windows_Azure.png" style="width:100%;display:none; border:groove">
+                    <img class="mySlides" src="./assets/images/certificates/MVA_2012_-_Windows_8_-_Sua_primeira_App_na_Windows_Store.png" style="width:100%;display:none; border:groove">
+                    <img class="mySlides" src="./assets/images/certificates/EADTIExames_-_2020_Documentacao_essencial_para_um_projeto_de_adequação_a_LGPD.png" style="width:100%;display:none; border:groove">
+
+
+                </div>
+
+
+
+        </div>
+
+        <div id="Contato" class="w3-container w3-padding-16 sidebarItem" style="display: none; text-justify: distribute;">
+
+            <div class="container">
+
+                <form  id="form1" method="post" action="./assets/scripts/form.php">
+                    <label for="fName">Primeiro nome: </label>
+                    <input type="text" id="fName" runat="server" name="firstName" placeholder="Digite seu primeiro nome: ">
+
+                    <label for="lName">Último nome: </label>
+                    <input type="text" id="lName" runat="server" name="lastName" placeholder="Digite seu último nome: ">
+
+                    <label for="to">Endereço de e-mail: </label>
+                    <input type="email" id="to" runat="server" name="toEmail" placeholder="Digite seu e-mail de contato: " required="required">
+
+                    <label for="from" style="display:none;">Enviar e-mail para: </label>
+                    <input type="email" id="from" runat="server" name="fromEmail" data-content="techall@hotmail.com.br" style="display:none;">
+
+                    <label for="subject">Motivo: </label>
+                    <input type="text" id="subject" runat="server" name="subject" placeholder="Digite o motivo do contato: ">
+
+                    <fieldset id="emlBody">
+                        <label for="body">Mensagem:</label>
+                        <textarea id="body" name="bMessage" placeholder="Escreva sua mensagem aqui... " style="height:200px"></textarea>
+                    </fieldset>
+                    <input type="submit" name="submit" value="Enviar" style="margin-top:10px;">
+                </form>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="w3-padding-32 w3-dark-grey w3-center w3-margin-top">
+            <h5>Conecte-se: </h5>
+            <div class="w3-xlarge w3-padding-16">
+                <a href="https://api.whatsapp.com/send?phone=+5511989203011" target="_blank"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+                <a href="https://github.com/techallhub/" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+                <a href="https://www.linkedin.com/in/allan-de-oliveira-almeida/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            </div>
+            <p>Copyright<i class="w3-tiny w3-cell-top">&COPY;</i></p>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- Scripts -->
+
+    <script>
+
+        //Sidebar
+
+        function w3_open() {
+            document.getElementById("sideBar").style.display = "block";
+            document.getElementById("Overlay").style.display = "block";
+
+        }
+
+        function w3_close() {
+            document.getElementById("sideBar").style.display = "none";
+            document.getElementById("Overlay").style.display = "none";
+        }
+
+        //Link between sidebar and BodyContent
+
+        function opensidebarItemML(evt, sidebarItemName) {
+
+            var i, x, tablinksML;
+            x = document.getElementsByClassName("sidebarItem");
+
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+
+            tablinksML = document.getElementsByClassName("tablinkML");
+
+            for (i = 0; i < x.length; i++) {
+                tablinksML[i].className = tablinksML[i].className.replace(" w3-red", "");
+            }
+
+            document.getElementById(sidebarItemName).style.display = "block";
+            evt.currentTarget.className += " w3-red";
+            w3_close();
+        }
+
+        function opensidebarItem(evt, sidebarItemName) {
+
+            var i, x, tablinks;
+            x = document.getElementsByClassName("sidebarItem");
+
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablink");
+
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+            }
+
+            document.getElementById(sidebarItemName).style.display = "block";
+            evt.currentTarget.className += " w3-red";
+            w3_close();
+        }
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+                document.getElementById("navBar").style.padding = "15px 5px";
+                document.getElementById("logo").style.fontSize = "25px";
+            } else {
+                document.getElementById("navBar").style.padding = "40px 5px";
+                document.getElementById("logo").style.fontSize = "35px";
+            }
+        }
+
+        var modal = document.getElementById("portfolioModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("btnModal1");
+        var modalImg = document.getElementById("imgModal1");
+        var captionText = document.getElementById("caption1");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.getElementById("imgModal1");
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span1 = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span1.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        var modal2 = document.getElementById("portfolioModal2");
+        var img2 = document.getElementById("btnModal2");
+        var modalImg2 = document.getElementById("imgModal2");
+        var captionText2 = document.getElementById("caption");
+        img2.onclick = function () {
+            modal2.style.display = "block";
+            modalImg2.src = this.getElementById("imgModal2");
+            captionText2.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span2 = document.getElementsByClassName("close")[1];
+
+        // When the user clicks on <span> (x), close the modal
+        span2.onclick = function () {
+            modal2.style.display = "none";
+        }
+
+
+
+        // Certificates manual-slideshow
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-opacity-off";
+        }
+
+
+        
+
+    </script>
+
+</body>
+</html>
