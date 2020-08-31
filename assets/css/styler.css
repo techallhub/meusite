@@ -95,6 +95,9 @@
     background-color: #f1f1f1;
 }
 
+
+/* Large screen */
+
 .bannerDesktop {
     position: relative;
     padding-bottom: 250px;
@@ -125,6 +128,108 @@
 .subtitulo {
     color: #f1f1f1;
 }
+
+
+.home-blocoDesktop {
+    z-index: -1;
+    margin-top: 5%;
+    background-color: #f1f1f1;
+}
+
+.blocoIconeDesktop1 {
+    position: relative;
+    margin-left: -75% !important;
+    margin-top: -10%;
+}
+
+.fundoIconeDesktop1_1 {
+    margin-bottom: -110px !important;
+    margin-left: -150px;
+}
+
+.fundoIconeDesktop1_2 {
+    color: dimgray;
+    font-size: 150px !important;
+}
+
+.meioIconeDesktop1_1 {
+    margin-left: 150px;
+    margin-bottom: -60px !important;
+}
+
+.meioIconeDesktop1_2 {
+    color: forestgreen;
+    font-size: 150px;
+}
+
+.frenteIconeDesktop1_1 {
+    margin-left: 180px;
+    margin-bottom: -70px !important;
+}
+
+.frenteIconeDesktop1_2 {
+    color: maroon;
+    font-size: 150px;
+}
+
+.blocoTextoDesktop1 {
+    left: 10%;
+    margin-left: 60%;
+    margin-right: -70%;
+    padding-top: -10px !important;
+    margin-bottom: 10%;
+    margin-top: -300px
+}
+
+.blocoTextoDesktop2 {
+    position: relative;
+    left: -55% !important;
+    padding-right: -100% !important;
+    padding-top: 70% !important;
+    margin-top: 10000px !important;
+}
+
+.blocoIconeDesktop2 {
+    margin-left: 60px;
+    margin-bottom: -50px !important;
+}
+
+.fundoIconeDesktop2_1 {
+    margin-left: 60px;
+    margin-bottom: -50px !important;
+}
+
+.fundoIconeDesktop2_2 {
+    color: dimgray;
+    font-size: 150px;
+}
+
+.meioIconeDesktop2_1 {
+    margin-left: -30px;
+    margin-bottom: -70px !important;
+}
+
+.meioIconeDesktop2_2 {
+    color: forestgreen;
+    font-size: 150px;
+}
+
+.frenteIconeDesktop2_1 {
+    margin-left: -90px;
+    margin-bottom: 70px !important;
+}
+
+.frenteIconeDesktop2_2 {
+    color: maroon;
+    font-size: 150px;
+}
+
+.botaoSaibaMaisDesktop {
+    width: 1000px;
+}
+
+
+/* Medium screen */
 
 .bannerTablet {
     position: relative;
@@ -158,6 +263,104 @@
     margin-bottom: 300px;
     color: #f1f1f1;
 }
+
+.home-blocoTablet {
+    z-index: -1;
+    margin-top: -10px;
+}
+
+.blocoIconeTablet1 {
+    position: relative;
+    margin-left: -95% !important;
+}
+
+.fundoIconeTablet1_1 {
+    margin-bottom: -50px !important;
+}
+
+.fundoIconeTablet1_2 {
+    color: dimgray;
+    font-size: 150px;
+    margin-left: 50px;
+}
+
+.meioIconeTablet1_1 {
+    margin-left: -50px;
+    margin-bottom: -60px !important;
+    margin-left: 100px;
+}
+
+.meioIconeTablet1_2 {
+    color: forestgreen;
+    font-size: 150px;
+}
+
+.frenteIconeTablet1_1 {
+    margin-left: -50px;
+    margin-bottom: -70px !important;
+    margin-left: 150px;
+}
+
+.frenteIconeTablet1_2 {
+    color: maroon;
+    font-size: 150px;
+}
+
+.blocoTextoTablet1 {
+    left: 10%;
+    margin-left: 30%;
+    margin-top: -350px;
+}
+
+.blocoTextotablet2 {
+    position: relative;
+    margin-right: 100%;
+    margin-top: 100px !important;
+}
+
+.blocoIconeTablet2 {
+    position: relative;
+    margin-right: -100%;
+    margin-left: -75% !important;
+}
+
+.fundoIconeTablet2_1 {
+    margin-left: 60px;
+    margin-bottom: -50px !important;
+}
+
+.fundoIconeTablet2_2 {
+    color: dimgray;
+    font-size: 150px;
+}
+
+.meioIconeTablet2_1 {
+    margin-left: -30px;
+    margin-bottom: -70px !important;
+}
+
+.meioIconeTablet2_2 {
+    color: forestgreen;
+    font-size: 150px;
+}
+
+.frenteIconeTablet2_1 {
+    margin-left: -90px;
+    margin-bottom: 70px !important;
+}
+
+.frenteIconeTablet2_2 {
+    color: maroon;
+    font-size: 150px;
+}
+
+.botaoSaibaMaisTablet {
+    width: 1000px;
+    padding-top: 100px;
+}
+
+
+/* Mobile screen */
 
 .bannerMobile {
     position: relative;
@@ -193,22 +396,111 @@
     color: #f1f1f1;
 }
 
-.home-bloco-1 {
+.home-blocoMobile {
     z-index: -1;
-    margin-top: 5%;
-    background-color: #f1f1f1;
+    margin-top: -10px;
 }
 
-.concatIconeDesktop {
+.blocoIconeMobile1 {
     position: relative;
-    margin-left: -75% !important;
-    margin-top: -10%;
+    margin-left: -100% !important
 }
 
-.backgroundIconeDesktop {
-    margin-bottom: -50px !important;
-    margin-left: 50px
+.fundoIconeMobile1_1 {
+    margin-bottom: -40px !important;
 }
+
+.fundoIconeMobile1_2 {
+    color: dimgray;
+    font-size: 100px;
+    margin-left: 50px;
+}
+
+.meioIconeMobile1_1 {
+    margin-left: 90px;
+    margin-bottom: -30px !important;
+}
+
+.meioIconeMobile1_2 {
+    margin-left: 90px;
+    margin-bottom: -30px !important;
+}
+
+.frenteIconeMobile1_1 {
+    margin-left: 130px;
+    margin-bottom: -70px !important;
+}
+
+.frenteIconeMobile1_2 {
+    color: maroon;
+    font-size: 100px;
+}
+
+.blocoTextoMobile1 {
+    margin-right: -10%;
+    margin-left: 35%;
+    margin-top: -240px;
+}
+
+.blocoTextoMobile2 {
+    position: relative;
+    padding-left: 40% !important;
+    padding-top: -100%;
+    left: -155px;
+    margin-top: 100px;
+}
+
+.blocoIconeMobile2 {
+    position: relative;
+    margin-left: 60% !important;
+    margin-top: -260px;
+}
+
+.fundoIconeMobile2_1 {
+    margin-left: 70px;
+    margin-bottom: -40px !important;
+}
+
+.fundoIconeMobile2_2 {
+    color: dimgray;
+    font-size: 100px;
+}
+
+.meioIconeMobile2_1 {
+    margin-left: 25px;
+    margin-bottom: -40px !important;
+}
+
+.meioIconeMobile2_2 {
+    color: forestgreen;
+    font-size: 100px;
+}
+
+.frenteIconeMobile2_1 {
+    margin-left: -10px;
+    margin-bottom: 70px !important;
+}
+
+.botaoSaibaMaisMobile {
+    width: 800px;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
