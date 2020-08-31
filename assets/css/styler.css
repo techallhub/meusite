@@ -28,14 +28,20 @@
         border-radius: 4px;
     }
 
-        #navBar #logo {
-            float: right;
-            font-size: 45px;
-            font-weight: bold;
-            transition: 0.4s;
-            font-family: "Allerta Stencil", Sans-serif !important;
-            background-color: transparent !important;
-        }
+#Overlay {
+    background-color: black;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#navBar #logo {
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+    transition: 0.4s;
+    font-family: "Allerta Stencil", Sans-serif !important;
+    background-color: transparent !important;
+}
 
     #navBar a:hover {
         background-color: #ddd;
@@ -83,6 +89,147 @@
     .w3-lobster {
     font-family: "Lobster", Sans-serif;
     }
+
+.main {
+    border: groove;
+    background-color: #f1f1f1;
+}
+
+.bannerDesktop {
+    position: relative;
+    padding-bottom: 250px;
+    z-index: 0;
+    background-image: url('/assets/images/telaCodigoDev.png');
+    background-position-y: -220px;
+    background-position-x: 50%;
+    background-size: cover;
+    background-repeat: space;
+    max-width: 10000px;
+    min-width: 100px;
+}
+
+.avatarDesktop {
+    position: relative;
+    margin-top: -100px;
+    width: 250px;
+    z-index: 1
+}
+
+.tituloDesktop {
+    position: relative;
+    margin-top: -300px;
+    margin-bottom: 300px;
+    color: #f1f1f1;
+}
+
+.subtitulo {
+    color: #f1f1f1;
+}
+
+.bannerTablet {
+    position: relative;
+    padding-bottom: 250px;
+    z-index: 0;
+    background-image: url('/assets/images/telaCodigoDev.png');
+    background-position-y: -95px;
+    background-position-x: 50%;
+    background-size: cover;
+    background-repeat: space;
+    max-width: 10000px;
+    min-width: 100px;
+}
+
+.divPerfilTablet {
+    position: relative;
+    padding-bottom: 0%;
+    position: center;
+}
+
+.avatarTablet {
+    position: relative;
+    margin-top: -100px;
+    width: 250px;
+    z-index: 1
+}
+
+.tituloTablet {
+    position: relative;
+    margin-top: -300px;
+    margin-bottom: 300px;
+    color: #f1f1f1;
+}
+
+.bannerMobile {
+    position: relative;
+    padding-bottom: 250px;
+    z-index: 0;
+    background-image: url('/assets/images/telaCodigoDev.png');
+    background-position-y: -45px;
+    background-position-x: 50%;
+    background-size: cover;
+    background-repeat: space;
+    max-width: 10000px;
+    min-width: 100px;
+}
+
+.divPerfilMobile {
+    position: relative;
+    margin-top: -100px;
+    padding-bottom: 0%;
+    position: center;
+}
+
+.avatarMobile {
+    position: relative;
+    margin-top: -75px;
+    width: 155px;
+    z-index: 1
+}
+
+.tituloMobile {
+    position: relative;
+    margin-top: -200px;
+    margin-bottom: 200px;
+    color: #f1f1f1;
+}
+
+.home-bloco-1 {
+    z-index: -1;
+    margin-top: 5%;
+    background-color: #f1f1f1;
+}
+
+.concatIconeDesktop {
+    position: relative;
+    margin-left: -75% !important;
+    margin-top: -10%;
+}
+
+.backgroundIconeDesktop {
+    margin-bottom: -50px !important;
+    margin-left: 50px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   .zoom {
     transform: scale(2.0);
