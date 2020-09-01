@@ -526,187 +526,6 @@
     width: 250px;
 }
 
-
-/* Sobre */
-
-.conteudoSobre {
-    display: none;
-    text-justify: distribute;
-}
-
-.certificados {
-    width: 100%;
-    cursor: pointer;
-    border: groove
-}
-
-.apresentacaoCertificados {
-    width: 100%;
-    height: auto;
-    display: none;
-    border: groove;
-}
-
-/* Contato */
-
-.conteudoContato {
-    display: none;
-    text-justify: distribute;
-}
-
-.contatoInputEmail {
-    display: none;
-}
-
-.contatoInputTextArea {
-    height: 200px;
-}
-
-.contatoInputSubmit {
-    margin-top: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .zoom {
-    transform: scale(2.0);
-    background-color: green;
-    transition: transform .2s; /* Animation */
-
-  }
-
-  .zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-
-  .btn {
-    border: none;
-    color: white;
-    text-align: center;
-    opacity: 0.6;
-    transition: 0.3s;
-    background-position-y:30%;
-  }
-
-  .btn:hover {
-    opacity: 1
-  }
-
-  img {
-    opacity: 1!important
-  }
-  .w3-circle{
-    border-radius:50%;
-    opacity:1!Important;
-  }
-
-  
-
-/* RGB Color */
-
-.color1 { 
-    color: rgba(255, 93, 88, 1);
-}
-
-.bgcolor1{ 
-    background-color: rgba(255, 93, 88, 1);
-}
-
-.color2{ 
-    color:rgba(255, 100, 0, 1);
-}
-
-.bgcolor2{ 
-    background-color:rgba(255, 100, 0, 1);
-}
-
-.color3{ 
-    color:rgba(255, 68, 57, 1);
-}
-
-.bgcolor3{ 
-    background-color:rgba(255, 68, 57, 1);
-}
-
-.color4{ 
-    color:rgba(172, 105, 0, 1);
-}
-
-.bgcolor4{ 
-    background-color:rgba(172, 105, 0, 1);
-}
-
-.color5{ 
-    color:rgba(95, 72, 0, 1);
-}
-
-.bgcolor5{ 
-    background-color:rgba(95, 72, 0, 1);
-}
-
-.color6{ 
-    color:rgba(255, 111, 105, 1);
-}
-
-.bgcolor6{ 
-    background-color:rgba(255, 111, 105, 1);
-}
-
-.color7{ 
-    color:rgba(216, 163, 2, 1);
-}
-
-.bgcolor7{ 
-    background-color:rgba(216, 163, 2, 1);
-}
-
-.color8{ 
-    color:rgba(216, 163, 2, 1);
-}
-
-.bgcolor8{ 
-    background-color:rgba(216, 163, 2, 1);
-}
-
-.color9{ 
-    color:rgba(79, 0, 0, 1);
-}
-
-.bgcolor9{ 
-    background-color:rgba(79, 0, 0, 1);
-}
-
-.color10{ 
-    color:rgba(255, 56, 41, 1);
-}
-
-.bgcolor10{ 
-    background-color:rgba(255, 56, 41, 1);
-}
-
-.footer {
-    clear: both;
-    position: relative;
-    background-image: url("images/footer.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    width: 781px;
-    height: 112px;
-    margin: 0 auto;
-}
-
-
 .card {
     clear: both;
     width: 20px !important;
@@ -797,16 +616,6 @@
     animation-duration: 0.6s;
 }
 
-@keyframes zoom {
-    from {
-        transform: scale(0)
-    }
-
-    to {
-        transform: scale(1)
-    }
-}
-
 /* The Close Button */
 .close {
     position: absolute;
@@ -824,6 +633,57 @@
         text-decoration: none;
         cursor: pointer;
     }
+
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Sobre */
+
+.conteudoSobre {
+    display: none;
+    text-justify: distribute;
+}
+
+.certificados {
+    width: 100%;
+    cursor: pointer;
+    border: groove
+}
+
+.apresentacaoCertificados {
+    width: 100%;
+    height: auto;
+    display: none;
+    border: groove;
+}
+
+/* Contato */
+
+.conteudoContato {
+    display: none;
+    text-justify: distribute;
+}
+
+.contatoInputEmail {
+    display: none;
+}
+
+.contatoInputTextArea {
+    height: 200px;
+}
+
+.contatoInputSubmit {
+    margin-top: 10px;
+}
 
 
 input[type=text], select, textarea, input[type=email], fieldset {
@@ -855,6 +715,146 @@ input[type=submit] {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+
+/* Footer */
+
+.conteudoFooter {
+    border: groove;
+    background-color: #f1f1f1;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    background-image: url("images/footer.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 781px;
+    height: 112px;
+    margin: 0 auto;
+}
+
+
+  .zoom {
+    transform: scale(2.0);
+    background-color: green;
+    transition: transform .2s; /* Animation */
+
+  }
+
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .btn {
+    border: none;
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    background-position-y:30%;
+  }
+
+  .btn:hover {
+    opacity: 1
+  }
+
+  img {
+    opacity: 1!important
+  }
+  .w3-circle{
+    border-radius:50%;
+    opacity:1!Important;
+  }
+
+  
+
+/* RGB Color Personalized */
+
+.color1 { 
+    color: rgba(255, 93, 88, 1);
+}
+
+.bgcolor1{ 
+    background-color: rgba(255, 93, 88, 1);
+}
+
+.color2{ 
+    color:rgba(255, 100, 0, 1);
+}
+
+.bgcolor2{ 
+    background-color:rgba(255, 100, 0, 1);
+}
+
+.color3{ 
+    color:rgba(255, 68, 57, 1);
+}
+
+.bgcolor3{ 
+    background-color:rgba(255, 68, 57, 1);
+}
+
+.color4{ 
+    color:rgba(172, 105, 0, 1);
+}
+
+.bgcolor4{ 
+    background-color:rgba(172, 105, 0, 1);
+}
+
+.color5{ 
+    color:rgba(95, 72, 0, 1);
+}
+
+.bgcolor5{ 
+    background-color:rgba(95, 72, 0, 1);
+}
+
+.color6{ 
+    color:rgba(255, 111, 105, 1);
+}
+
+.bgcolor6{ 
+    background-color:rgba(255, 111, 105, 1);
+}
+
+.color7{ 
+    color:rgba(216, 163, 2, 1);
+}
+
+.bgcolor7{ 
+    background-color:rgba(216, 163, 2, 1);
+}
+
+.color8{ 
+    color:rgba(216, 163, 2, 1);
+}
+
+.bgcolor8{ 
+    background-color:rgba(216, 163, 2, 1);
+}
+
+.color9{ 
+    color:rgba(79, 0, 0, 1);
+}
+
+.bgcolor9{ 
+    background-color:rgba(79, 0, 0, 1);
+}
+
+.color10{ 
+    color:rgba(255, 56, 41, 1);
+}
+
+.bgcolor10{ 
+    background-color:rgba(255, 56, 41, 1);
+}
+
+
+
+
 
 
 .mySlides {
