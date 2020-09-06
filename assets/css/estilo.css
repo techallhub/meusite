@@ -1,0 +1,409 @@
+    body {
+    max-width: 1920px;
+    max-height: 1080px;
+    min-width: 450px!important;
+    margin: auto;
+    background: white;
+    }
+
+    #navBar {
+        position: -webkit-sticky!important;
+        position: sticky!important;
+        overflow: hidden;
+        background-color: #f1f1f1;
+        padding: 90px 10px;
+        transition: 0.4s;
+        width: 100%;
+        top: 0;
+        z-index: 99;
+    }
+
+    #navBar a {
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+    }
+
+#Overlay {
+    background-color: black;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#navBar #logo {
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+    transition: 0.4s;
+    font-family: "Allerta Stencil", Sans-serif !important;
+    background-color: transparent !important;
+}
+
+    #navBar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    #navBar a.active {
+        background-color: dodgerblue;
+        color: white;
+    }
+
+    #navBar #sideBarButton {
+        display: none;
+        font-size: 35px;
+        font-weight: bold;
+        transition: 0.4s;
+        float: left;
+        margin-right: 6px;
+    }
+
+    #navBar #sideBar {
+        display:none;
+    }
+
+    #navBar #sideBarML {
+        display: normal!important;
+        font-size: 25px;
+        font-weight: normal;
+        transition: 0.4s;
+        float: left;
+        margin-right: 6px;
+    }
+
+    .w3-allerta {
+    font-family: "Allerta Stencil", Sans-serif;
+    }
+
+    .w3-allerta-logo {
+    font-family: "Allerta Stencil", Sans-serif;
+    font-size: 36px;
+    margin-top: -55px;
+    padding-top: 100px!important;
+    }
+
+    .w3-lobster {
+    font-family: "Lobster", Sans-serif;
+    }
+
+.main {
+    border: groove;
+    background-color: #f1f1f1;
+}
+
+
+/* Large screen */
+
+@media only screen and (max-width: 1920px) and (min-width:600px) {
+
+    .header {
+        padding-bottom: 50px;
+    }
+
+    .banner {
+        position: relative;
+        padding-bottom: 250px;
+        z-index: 0;
+        background-image: url('/assets/images/telaCodigoDev.png');
+        background-position-y: -220px;
+        background-position-x: 50%;
+        background-size: cover;
+        background-repeat: space;
+        max-width: 10000px;
+        min-width: 100px;
+    }
+
+    .avatar {
+        position: relative;
+        margin-top: -100px;
+        width: 250px;
+        z-index: 1
+    }
+
+    .titulo {
+        position: relative;
+        margin-top: -330px;
+        margin-bottom: 300px;
+        color: #f1f1f1;
+    }
+
+    .subtitulo {
+        color: #f1f1f1;
+    }
+
+    .home-bloco1 {
+        margin-top: 10px;
+        background-color: #f1f1f1;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .blocoIcone1 {
+        margin-top: 10%;
+        padding-right: 70%;
+    }
+
+    .fundoIcone1 {
+        color: dimgray;
+        font-size: 150px !important;
+        margin-right: 150px;
+    }
+
+    .meioIcone1 {
+        margin-top: -70px;
+        margin-right: 50px;
+        color: forestgreen;
+        font-size: 150px;
+    }
+
+    .frenteIcone1 {
+        margin-top: -60px;
+        color: maroon;
+        font-size: 150px;
+    }
+
+    .blocoTexto1 {
+        margin-top: -300px;
+        margin-bottom: 200px;
+        margin-right: 20px;
+        margin-left: 330px;
+    }
+
+    .home-bloco2 {
+        margin-top: -5px;
+        background-color: #f1f1f1;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .blocoIcone2 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        padding-left: 70%;
+    }
+
+    .fundoIcone2 {
+        color: dimgray;
+        font-size: 150px !important;
+    }
+
+    .meioIcone2 {
+        margin-top: -70px;
+        margin-right: 50px;
+        color: forestgreen;
+        font-size: 150px;
+    }
+
+    .frenteIcone2 {
+        margin-top: -60px;
+        color: maroon;
+        font-size: 150px;
+        margin-right: 150px;
+    }
+
+    .blocoTexto2 {
+        margin-top: -350px;
+        margin-bottom: 100px;
+        margin-left: 20px;
+        margin-right: 35%;
+    }
+
+    hr.separe {
+        border-top: 1px dotted #8c8b8b;
+    }
+
+    .divBotaoSaibaMais {
+        background-color: #f1f1f1;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .botaoSaibaMais {
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: xx-large;
+    }
+}
+
+
+/* Página Portifólio */
+
+#btnModal1 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #btnModal1:hover {
+        opacity: 0.7;
+    }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 99; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+#btnModal2 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #btnModal2:hover {
+        opacity: 0.7;
+    }
+
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* Sobre */
+
+
+
+/* Contato */
+
+
+
+/* Footer */
+
+
+
+/* General */
+
+  
+
+/* RGB Color Personalized */
+
+.color1 { 
+    color: rgba(255, 93, 88, 1);
+}
+
+.bgcolor1{ 
+    background-color: rgba(255, 93, 88, 1);
+}
+
+.color2{ 
+    color:rgba(255, 100, 0, 1);
+}
+
+.bgcolor2{ 
+    background-color:rgba(255, 100, 0, 1);
+}
+
+.color3{ 
+    color:rgba(255, 68, 57, 1);
+}
+
+.bgcolor3{ 
+    background-color:rgba(255, 68, 57, 1);
+}
+
+.color4{ 
+    color:rgba(172, 105, 0, 1);
+}
+
+.bgcolor4{ 
+    background-color:rgba(172, 105, 0, 1);
+}
+
+.color5{ 
+    color:rgba(95, 72, 0, 1);
+}
+
+.bgcolor5{ 
+    background-color:rgba(95, 72, 0, 1);
+}
+
+.color6{ 
+    color:rgba(255, 111, 105, 1);
+}
+
+.bgcolor6{ 
+    background-color:rgba(255, 111, 105, 1);
+}
+
+.color7{ 
+    color:rgba(216, 163, 2, 1);
+}
+
+.bgcolor7{ 
+    background-color:rgba(216, 163, 2, 1);
+}
+
+.color8{ 
+    color:rgba(216, 163, 2, 1);
+}
+
+.bgcolor8{ 
+    background-color:rgba(216, 163, 2, 1);
+}
+
+.color9{ 
+    color:rgba(79, 0, 0, 1);
+}
+
+.bgcolor9{ 
+    background-color:rgba(79, 0, 0, 1);
+}
+
+.color10{ 
+    color:rgba(255, 56, 41, 1);
+}
+
+.bgcolor10{ 
+    background-color:rgba(255, 56, 41, 1);
+}
