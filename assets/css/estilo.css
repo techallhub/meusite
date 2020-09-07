@@ -3,7 +3,7 @@ body {
     max-width: 1920px;
     max-height: 1080px;
     width: auto;
-    position: fixed;
+    position: absolute;
     margin-bottom: 0% !important;
     margin-left: auto !important;
     margin-right: auto !important;
