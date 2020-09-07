@@ -842,16 +842,6 @@ input[type=submit]:hover {
 
 /* General */
 
-@keyframes zoom {
-    from {
-        transform: scale(0)
-    }
-
-    to {
-        transform: scale(1)
-    }
-}
-
 /* RGB Color Personalized */
 
 .color1 { 
