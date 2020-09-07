@@ -1,12 +1,14 @@
-    body {
+body {
+    background-color: #f1f1f1;
     max-width: 1920px;
     max-height: 1080px;
-    min-width: 450px!important;
-    margin: auto;
-    background: white;
-    }
+    min-width: 450px !important;
+    margin-bottom: 0% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 
-    #navBar {
+#navBar {
         position: -webkit-sticky!important;
         position: sticky!important;
         overflow: hidden;
@@ -18,7 +20,7 @@
         z-index: 99;
     }
 
-    #navBar a {
+#navBar a {
         color: black;
         text-align: center;
         padding: 12px;
@@ -43,17 +45,17 @@
     background-color: transparent !important;
 }
 
-    #navBar a:hover {
+#navBar a:hover {
         background-color: #ddd;
         color: black;
     }
 
-    #navBar a.active {
+#navBar a.active {
         background-color: dodgerblue;
         color: white;
     }
 
-    #navBar #sideBarButton {
+#navBar #sideBarButton {
         display: none;
         font-size: 35px;
         font-weight: bold;
@@ -62,11 +64,11 @@
         margin-right: 6px;
     }
 
-    #navBar #sideBar {
+#navBar #sideBar {
         display:none;
     }
 
-    #navBar #sideBarML {
+#navBar #sideBarML {
         display: normal!important;
         font-size: 25px;
         font-weight: normal;
@@ -75,30 +77,29 @@
         margin-right: 6px;
     }
 
-    .w3-allerta {
+.w3-allerta {
     font-family: "Allerta Stencil", Sans-serif;
     }
 
-    .w3-allerta-logo {
+.w3-allerta-logo {
     font-family: "Allerta Stencil", Sans-serif;
     font-size: 36px;
     margin-top: -55px;
     padding-top: 100px!important;
     }
 
-    .w3-lobster {
+.w3-lobster {
     font-family: "Lobster", Sans-serif;
     }
 
 .main {
     border: groove;
-    background-color: #f1f1f1;
 }
 
 
 /* Large screen */
 
-@media only screen and (max-width: 1920px) and (min-width:600px) {
+@media screen and (min-width: 1920px) {
 
     .header {
         padding-bottom: 50px;
@@ -229,6 +230,367 @@
     }
 }
 
+/* Medium screen */
+
+@media screen and (max-width: 1920px) and (min-width:600px) {
+
+    .header {
+        padding-bottom: 50px;
+    }
+
+    .banner {
+        position: relative;
+        padding-bottom: 250px;
+        z-index: 0;
+        background-image: url('/assets/images/telaCodigoDev.png');
+        background-position-y: -220px;
+        background-position-x: 50%;
+        background-size: cover;
+        background-repeat: space;
+        max-width: 10000px;
+        min-width: 100px;
+    }
+
+    .avatar {
+        position: relative;
+        margin-top: -100px;
+        width: 250px;
+        z-index: 1
+    }
+
+    .titulo {
+        position: relative;
+        margin-top: -330px;
+        margin-bottom: 300px;
+        color: #f1f1f1;
+    }
+
+    .subtitulo {
+        color: #f1f1f1;
+    }
+
+    .home-bloco1 {
+        margin-top: -5px;
+        background-color: #f1f1f1;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .blocoIcone1 {
+        margin-top: 10%;
+        padding-right: 70%;
+    }
+
+    .fundoIcone1 {
+        color: dimgray;
+        font-size: 150px !important;
+        margin-right: 150px;
+    }
+
+    .meioIcone1 {
+        margin-top: -70px;
+        margin-right: 50px;
+        color: forestgreen;
+        font-size: 150px;
+    }
+
+    .frenteIcone1 {
+        margin-top: -60px;
+        color: maroon;
+        font-size: 150px;
+    }
+
+    .blocoTexto1 {
+        margin-top: -300px;
+        margin-bottom: 200px;
+        margin-right: 20px;
+        margin-left: 330px;
+    }
+
+    .home-bloco2 {
+        margin-top: -5px;
+        background-color: #f1f1f1;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .blocoIcone2 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        padding-left: 70%;
+    }
+
+    .fundoIcone2 {
+        color: dimgray;
+        font-size: 150px !important;
+    }
+
+    .meioIcone2 {
+        margin-top: -70px;
+        margin-right: 50px;
+        color: forestgreen;
+        font-size: 150px;
+    }
+
+    .frenteIcone2 {
+        margin-top: -60px;
+        color: maroon;
+        font-size: 150px;
+        margin-right: 150px;
+    }
+
+    .blocoTexto2 {
+        margin-top: -350px;
+        margin-bottom: 100px;
+        margin-left: 20px;
+        margin-right: 35%;
+    }
+
+    hr.separe {
+        border-top: 1px dotted #8c8b8b;
+    }
+
+    .divBotaoSaibaMais {
+        background-color: #f1f1f1;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .botaoSaibaMais {
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: xx-large;
+    }
+}
+
+/* Small screen */
+@media screen and (max-width:600px) {
+
+    #navBar {
+        padding: 20px 10px !important;
+        color: aqua;
+    }
+
+        #navBar a {
+            float: none;
+            display: flex;
+            text-align: center !important;
+        }
+
+    #sideBar {
+        float: none;
+    }
+
+    #navBar #sideBarButton {
+        display: normal !important;
+    }
+
+    #navBar #logo {
+        font-size: 35px;
+        font-weight: bold;
+        transition: 0.4s;
+        float: right;
+        margin-right: 6px;
+    }
+
+    #navBar #sideBar {
+        display: none;
+    }
+
+    #navBar #sideBarML {
+        display: none !important;
+        font-size: 25px !important;
+        font-weight: normal !important;
+        transition: 0.4s;
+        float: left;
+        margin-right: 0px !important;
+    }
+
+    #navBar #sideBarButton {
+        display: contents !important;
+        font-size: 25px !important;
+        font-weight: normal !important;
+        transition: 0.4s;
+        float: left;
+        margin-right: 0px !important;
+    }
+
+.header {
+        padding-bottom: 50px;
+    }
+
+.banner {
+        position: relative;
+        padding-bottom: 130px;
+        z-index: 0;
+        background-image: url('/assets/images/telaCodigoDev.png');
+        background-position-y: -220px;
+        background-position-x: 50%;
+        background-size: cover;
+        background-repeat: space;
+        max-width: 10000px;
+        min-width: 100px;
+    }
+
+.avatar {
+        position: relative;
+        margin-top: -70px;
+        width: 150px;
+        z-index: 1
+    }
+
+.titulo {
+        position: relative;
+        margin-top: -205px;
+        margin-bottom: 170px;
+        color: #f1f1f1;
+    }
+
+.subtitulo {
+        color: #f1f1f1;
+    }
+
+.home-bloco1 {
+        margin-top: -5px;
+        background-color: #f1f1f1;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+.blocoIcone1 {
+        margin-top: 10%;
+        padding-right: 70%;
+    }
+
+.fundoIcone1 {
+        color: dimgray;
+        font-size: 150px !important;
+        margin-right: 150px;
+    }
+
+.meioIcone1 {
+        margin-top: -70px;
+        margin-right: 50px;
+        color: forestgreen;
+        font-size: 150px;
+    }
+
+.frenteIcone1 {
+        margin-top: -60px;
+        color: maroon;
+        font-size: 150px;
+    }
+
+.blocoTexto1 {
+        margin-top: -60%;
+        margin-bottom: 50px;
+        margin-right: 10px;
+        margin-left: 40%;
+    }
+
+.home-bloco2 {
+        margin-top: -5px;
+        background-color: #f1f1f1;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+.blocoIcone2 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        padding-left: 60%;
+    }
+
+.fundoIcone2 {
+        color: dimgray;
+        font-size: 150px !important;
+    }
+
+.meioIcone2 {
+        margin-top: -70px;
+        margin-right: 50px;
+        color: forestgreen;
+        font-size: 150px;
+    }
+
+.frenteIcone2 {
+        margin-top: -60px;
+        color: maroon;
+        font-size: 150px;
+        margin-right: 170px;
+    }
+
+.blocoTexto2 {
+        margin-top: -350px;
+        margin-bottom: 100px;
+        margin-left: 20px;
+        margin-right: 40%;
+    }
+
+hr.separe {
+        border-top: 1px dotted #8c8b8b;
+    }
+
+.divBotaoSaibaMais {
+        background-color: #f1f1f1;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+.botaoSaibaMais {
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: xx-large;
+    }
+
+    .card {
+        clear: both;
+        width: 20px !important;
+        height: 30px !important;
+        margin-right: 50% !important;
+    }
+
+    .cardImg {
+        clear: both;
+        width: 1% !important;
+        margin-top: 10% !important;
+    }
+
+    .imgPortifolio2 {
+        width: 120px !important;
+    }
+
+    .cardMiddle {
+        clear: both;
+        position: relative;
+        bottom: -15%;
+    }
+
+    .cardBottom1 {
+        clear: both;
+        position: relative;
+        bottom: -8%;
+        margin: auto -8px;
+        padding: inherit;
+        vertical-align: middle;
+    }
+
+    .cardBottom2 {
+        clear: both;
+        position: relative;
+        margin: auto -8px;
+        padding: inherit;
+        vertical-align: middle;
+    }
+
+    .modal-content {
+        width: 100%;
+        max-width: 500px;
+    }
+
+}
+
+
 
 /* Página Portifólio */
 
@@ -304,7 +666,7 @@
     transition: 0.3s;
 }
 
-    #btnModal1:hover {
+#btnModal1:hover {
         opacity: 0.7;
     }
 /* The Modal (background) */
@@ -337,7 +699,7 @@
     transition: 0.3s;
 }
 
-    #btnModal2:hover {
+#btnModal2:hover {
         opacity: 0.7;
     }
 /* Modal Content (Image) */
@@ -367,7 +729,7 @@
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-/* The Close Button */
+ The Close Button /**/
 
 .close {
     position: absolute;
@@ -379,8 +741,8 @@
     transition: 0.3s;
 }
 
-    .close:hover,
-    .close:focus {
+.close:hover,
+.close:focus {
         color: #bbb;
         text-decoration: none;
         cursor: pointer;
@@ -450,7 +812,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-    input[type=submit]:hover {
+input[type=submit]:hover {
         background-color: #45a049;
     }
 
@@ -480,7 +842,15 @@ input[type=submit] {
 
 /* General */
 
-  
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
 
 /* RGB Color Personalized */
 
