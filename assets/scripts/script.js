@@ -59,13 +59,21 @@ window.onscroll = function () {
 
 function scrollFunction() {
 	if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-		document.getElementById("navBar").style.padding = "15px 5px";
+		document.getElementById("navBar").style.padding = "5px 5px 30px 5px";
 		document.getElementById("logo").style.fontSize = "25px";
 	} else {
-		document.getElementById("navBar").style.padding = "40px 5px";
+		document.getElementById("navBar").style.padding = "25px 5px 40px 5px";
 		document.getElementById("logo").style.fontSize = "35px";
 	}
 }
+
+var varButtonMore = document.getElementById("buttonMore");
+
+document.getElementById("buttonMore").onclick = funcButtonMore
+	varButtonMore.addEventListener(w3_open(), onclick);
+
+document.getElementById("buttonMore").click(w3_open())
+
 
 var modal = document.getElementById("portfolioModal");
 

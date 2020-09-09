@@ -10,16 +10,18 @@ body {
 #navBar {
         position: -webkit-sticky!important;
         position: sticky!important;
+        position: fixed !important;
         overflow: hidden;
         background-color: #f1f1f1;
-        padding: 90px 10px;
+        border-bottom: double;
+        padding: 40px 10px;
         transition: 0.4s;
         width: 100%;
         top: 0;
-        z-index: 99;
+        z-index: 99!important;
     }
 
-#navBar a {
+    #navBar a {
         color: black;
         text-align: center;
         padding: 12px;
@@ -27,6 +29,7 @@ body {
         font-size: 18px;
         line-height: 25px;
         border-radius: 4px;
+        z-index: 99 !important;
     }
 
 #Overlay {
@@ -35,57 +38,41 @@ body {
     opacity: 0.5;
 }
 
-#navBar #logo {
-    float: right;
-    font-size: 45px;
+#navBar #sideBarButton {
+    display: none;
+    font-size: 35px;
     font-weight: bold;
     transition: 0.4s;
-    font-family: "Allerta Stencil", Sans-serif !important;
-    background-color: transparent !important;
+    float: left;
+    margin-right: 6px;
+    z-index: 99 !important;
 }
 
-#navBar a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
-#navBar a.active {
-        background-color: dodgerblue;
-        color: white;
-    }
-
-#navBar #sideBarButton {
-        display: none;
-        font-size: 35px;
-        font-weight: bold;
-        transition: 0.4s;
-        float: left;
-        margin-right: 6px;
-    }
-
-#navBar #sideBar {
-        display:none;
-    }
-
 #navBar #sideBarML {
-        display: normal!important;
-        font-size: 25px;
-        font-weight: normal;
-        transition: 0.4s;
-        float: left;
-        margin-right: 6px;
-    }
+    display: block !important;
+    font-size: 50px;
+    font-weight: normal;
+    transition: 0.4s;
+    float: left;
+    margin-right: 6px;
+    z-index: 99 !important;
+}
 
 .w3-allerta {
     font-family: "Allerta Stencil", Sans-serif;
     }
 
-.w3-allerta-logo {
-    font-family: "Allerta Stencil", Sans-serif;
-    font-size: 36px;
-    margin-top: -55px;
-    padding-top: 100px!important;
-    }
+
+#navBar #logo {
+    display: block !important;
+    float: right!important;
+    margin-right: 0px;
+    font-size: 45px !important;
+    font-weight: bold;
+    transition: 0.4s;
+    font-family: "Allerta Stencil", Sans-serif !important;
+    background-color: transparent !important;
+}
 
 .w3-lobster {
     font-family: "Lobster", Sans-serif;
@@ -122,7 +109,7 @@ body {
         position: relative;
         margin-top: -100px;
         width: 250px;
-        z-index: 1
+        z-index: 0;
     }
 
     .titulo {
@@ -256,7 +243,7 @@ body {
         position: relative;
         margin-top: -100px;
         width: 250px;
-        z-index: 1
+        z-index: 0;
     }
 
     .titulo {
@@ -386,13 +373,6 @@ body {
         display: normal !important;
     }
 
-    #navBar #logo {
-        font-size: 35px;
-        font-weight: bold;
-        transition: 0.4s;
-        float: right;
-        margin-right: 6px;
-    }
 
     #navBar #sideBar {
         display: none;
@@ -438,7 +418,7 @@ body {
         position: relative;
         margin-top: -70px;
         width: 150px;
-        z-index: 1
+        z-index: 0;
     }
 
 .titulo {
@@ -678,7 +658,7 @@ hr.separe {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 99;
+    z-index: 90;
     /* Sit on top */
     padding-top: 100px;
     /* Location of the box */
@@ -846,82 +826,82 @@ input[type=submit]:hover {
 
 /* RGB Color Personalized */
 
-.color1 { 
-    color: rgba(255, 93, 88, 1);
+.color1 {
+    color: rgba(255, 93, 88, 1) !important;
 }
 
-.bgcolor1{ 
-    background-color: rgba(255, 93, 88, 1);
+.bgcolor1 {
+    background-color: rgba(255, 93, 88, 1) !important;
 }
 
-.color2{ 
-    color:rgba(255, 100, 0, 1);
+.color2 {
+    color: rgba(255, 100, 0, 1) !important;
 }
 
-.bgcolor2{ 
-    background-color:rgba(255, 100, 0, 1);
+.bgcolor2 {
+    background-color: rgba(255, 100, 0, 1) !important;
 }
 
-.color3{ 
-    color:rgba(255, 68, 57, 1);
+.color3 {
+    color: rgba(255, 68, 57, 1) !important;
 }
 
-.bgcolor3{ 
-    background-color:rgba(255, 68, 57, 1);
+.bgcolor3 {
+    background-color: rgba(255, 68, 57, 1) !important;
 }
 
-.color4{ 
-    color:rgba(172, 105, 0, 1);
+.color4 {
+    color: rgba(172, 105, 0, 1) !important;
 }
 
-.bgcolor4{ 
-    background-color:rgba(172, 105, 0, 1);
+.bgcolor4 {
+    background-color: rgba(172, 105, 0, 1) !important;
 }
 
-.color5{ 
-    color:rgba(95, 72, 0, 1);
+.color5 {
+    color: rgba(95, 72, 0, 1) !important;
 }
 
-.bgcolor5{ 
-    background-color:rgba(95, 72, 0, 1);
+.bgcolor5 {
+    background-color: rgba(95, 72, 0, 1) !important;
 }
 
-.color6{ 
-    color:rgba(255, 111, 105, 1);
+.color6 {
+    color: rgba(255, 111, 105, 1) !important;
 }
 
-.bgcolor6{ 
-    background-color:rgba(255, 111, 105, 1);
+.bgcolor6 {
+    background-color: rgba(255, 111, 105, 1) !important;
 }
 
-.color7{ 
-    color:rgba(216, 163, 2, 1);
+.color7 {
+    color: rgba(255, 255, 255, 1) !important;
 }
 
-.bgcolor7{ 
-    background-color:rgba(216, 163, 2, 1);
+.bgcolor7 {
+    background-color: rgba(255, 255, 255, 1) !important;
 }
 
-.color8{ 
-    color:rgba(216, 163, 2, 1);
+.color8 {
+    color: rgba(216, 163, 2, 1) !important;
 }
 
-.bgcolor8{ 
-    background-color:rgba(216, 163, 2, 1);
+.bgcolor8 {
+    background-color: rgba(216, 163, 2, 1) !important;
 }
 
-.color9{ 
-    color:rgba(79, 0, 0, 1);
+.color9 {
+    color: rgba(79, 0, 0, 1) !important;
 }
 
-.bgcolor9{ 
-    background-color:rgba(79, 0, 0, 1);
+.bgcolor9 {
+    background-color: rgba(79, 0, 0, 1) !important;
 }
 
-.color10{ 
-    color:rgba(255, 56, 41, 1);
+.color10 {
+    color: rgba(255, 56, 41, 1) !important;
 }
 
-.bgcolor10{ 
-    background-color:rgba(255, 56, 41, 1);
+.bgcolor10 {
+    background-color: rgba(255, 56, 41, 1) !important;
 }
