@@ -584,7 +584,17 @@ body {
 }
 
 .imagemDoCartao {
+    width: auto;
+    height: auto;
+}
+
+.imagemDoCartao #imagemCapaCyberCafe {
     width: 120px !important;
+}
+
+.imagemDoCartao #imagemCapaCartaoDeVisitas {
+    min-width: 120px !important;
+    width: 180px !important;
 }
 
 .textoDoCartao {
@@ -595,7 +605,7 @@ body {
 
 .espacoCartao {
     display: table-cell;
-    padding: 2%;
+    padding: 5px;
 }
 
 #btnModal1 {
