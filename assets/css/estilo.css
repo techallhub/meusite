@@ -23,7 +23,7 @@ body {
         z-index: 99!important;
     }
 
-    #navBar a {
+#navBar a {
         color: black;
         text-align: center;
         padding: 15px;
@@ -691,6 +691,7 @@ body {
 .conteudoSobre {
     display: none;
     text-justify: distribute;
+    margin-top: 80px !important;
 }
 
 .certificados {
@@ -711,6 +712,13 @@ body {
 .conteudoContato {
     display: none;
     text-justify: distribute;
+    margin-top: 80px !important;
+}
+
+.formularioContato {
+    margin-right: 20%;
+    margin-left: 20%;
+    border: groove;
 }
 
 .contatoInputEmail {
