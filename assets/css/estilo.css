@@ -595,7 +595,7 @@ body {
 .imagemDoCartao #imagemCapaCartaoDeVisitas {
     min-width: 120px !important;
     width: 180px !important;
-    padding-right: 10px !important;
+    padding-right: 15px !important;
 }
 
 .textoDoCartao {
