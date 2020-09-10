@@ -716,8 +716,8 @@ body {
 }
 
 .formularioContato {
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
     border: groove;
 }
 
@@ -740,7 +740,7 @@ input[type=email],
 fieldset {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px groove #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
