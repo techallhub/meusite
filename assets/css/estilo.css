@@ -14,9 +14,11 @@ body {
         overflow: hidden;
         background-color: #f1f1f1;
         border-bottom: double;
-        padding: 40px 10px;
+        min-width: 200px !important;
+        max-width: 1920px !important;
+        width: 100% !important;
+        padding: 20px 10px;
         transition: 0.4s;
-        width: 100%;
         top: 0;
         z-index: 99!important;
     }
@@ -24,7 +26,7 @@ body {
     #navBar a {
         color: black;
         text-align: center;
-        padding: 12px;
+        padding: 15px;
         text-decoration: none;
         font-size: 18px;
         line-height: 25px;
@@ -48,27 +50,22 @@ body {
     z-index: 99 !important;
 }
 
-#navBar #sideBarML {
-    display: block !important;
-    font-size: 50px;
-    font-weight: normal;
-    transition: 0.4s;
-    float: left;
-    margin-right: 6px;
-    z-index: 99 !important;
-}
 
 .w3-allerta {
     font-family: "Allerta Stencil", Sans-serif;
     }
 
 
-#navBar #logo {
+.logo {
     display: block !important;
-    float: right!important;
+    float: right !important;
     margin-right: 0px;
+    margin-top: -15px;
     font-size: 45px !important;
     font-weight: bold;
+    min-width: 100px;
+    max-width: 160px;
+    width: 65%;
     transition: 0.4s;
     font-family: "Allerta Stencil", Sans-serif !important;
     background-color: transparent !important;
@@ -355,7 +352,7 @@ body {
 @media screen and (max-width:600px) {
 
     #navBar {
-        padding: 20px 10px !important;
+        padding: 10px 5px !important;
         color: aqua;
     }
 
@@ -380,7 +377,7 @@ body {
 
     #navBar #sideBarML {
         display: none !important;
-        font-size: 25px !important;
+        font-size: 5px !important;
         font-weight: normal !important;
         transition: 0.4s;
         float: left;
@@ -394,6 +391,10 @@ body {
         transition: 0.4s;
         float: left;
         margin-right: 0px !important;
+    }
+
+    .logo {
+        margin-top: 0px;
     }
 
 .header {
