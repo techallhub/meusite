@@ -2,7 +2,7 @@ body {
     background-color: #f1f1f1;
     max-width: 1920px;
     max-height: 1080px;
-    width: auto;
+    width: 100% !important;
     position: absolute;
     margin-bottom: 0% !important;
 }
@@ -440,7 +440,7 @@ body {
 
     .titulo {
         position: relative;
-        margin-top: -220px;
+        margin-top: -205px;
         margin-bottom: 160px;
         color: #f1f1f1;
     }
@@ -598,33 +598,54 @@ body {
 /* Página Portifólio */
 
 .conteudoPortifolio {
-    display: none;
+    display: normal;
     text-justify: distribute;
+    width: 100% !important;
 }
 
 .projetos {
-    position: center;
-    padding-bottom: 250px;
+    display: table;
+    display: -webkit-box !important;
+    position: center !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    position: relative !important;
     z-index: 0;
 }
 
-.cartaoCyberCafe {
-    width: 150px !important;
-    height: 300px !important;
+.corpoDoCartao {
+    display: table-cell;
+    margin-top: 6px !important;
+    position: relative !important;
+    cursor: pointer !important;
+    z-index: 0 !important;
+    overflow: hidden !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    width: 200px !important;
+    padding: 3%;
 }
 
-.CapaCyberCafe {
-    width: 100%;
+.espacoCartao {
+    display: table-cell;
+    padding: 2%;
 }
 
 .imagemCapaCyberCafe {
-    width: 250px;
     width: 120px !important;
 }
 
 .cartaoCartaoDeVisitas {
-    width: 150px !important;
-    height: 300px !important;
+    font-weight: 400 !important;
+    margin-top: 6px !important;
+    position: relative !important;
+    cursor: pointer !important;
+    z-index: 0 !important;
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    width: 200px !important;
 }
 
 .capaCartaoDeVisitas {
@@ -632,7 +653,7 @@ body {
 }
 
 .imagemCapaCartaoDeVisitas {
-    width: 250px;
+    width: 120px !important;
 }
 
 .card {
@@ -830,16 +851,8 @@ input[type=submit]:hover {
 .conteudoFooter {
     border: hidden;
     background-color: #f1f1f1;
-}
-
-.footer {
-    clear: both;
-    position: relative;
-    background-image: url("images/footer.png");
-    background-repeat: no-repeat;
+    position: static !important;
     background-position: bottom;
-    width: 781px;
-    height: 112px;
     margin: 0 auto;
 }
 
