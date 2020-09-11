@@ -3,9 +3,7 @@
     "",
     "\\assets",
     "\\assets\\images",
-    "\\assets\\images\\portfolio",
     "\\assets\\scripts"
   ],
-  "SelectedNode": "\\assets\\images\\portfolio\\AdminSystemController1.0.png",
-  "PreviewInSolutionExplorer": false
+  "PreviewInSolutionExplorer": true
 }
