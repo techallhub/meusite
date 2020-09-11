@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\images",
+    "\\assets\\images\\portfolio",
     "\\assets\\scripts"
   ],
-  "SelectedNode": "\\assets\\scripts\\script.js",
+  "SelectedNode": "\\assets\\images\\portfolio\\AdminSystemController1.0.png",
   "PreviewInSolutionExplorer": false
 }
